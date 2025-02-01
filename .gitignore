@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build outputs
+*.js
+*.js.map
+*.d.ts
+dist/
+build/
+lib/
+
+# Pulumi state files (si usas Pulumi Cloud, pero no S3)
+.pulumi/
+Pulumi.*.yaml
+Pulumi.*.yaml.enc
+
+# AWS credentials
+.aws/
+.aws/credentials
+.aws/config
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Logs y archivos temporales
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
